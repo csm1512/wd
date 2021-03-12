@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <title>Contact form</title>
+  <link rel="stylesheet" href="style5.css"/>
+  <body>
+    <form class="submit-form" action="mailto:asouchiiste@gmail.com" method="post" enctype="text/plain">
+        <label for ="name">Your name</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="doyouswim" id="swim">Do you swim?</label>
+        <input type="checkbox" name="doyouswim" id="doyouswim">
+        <label for="comments">Your comments</label>
+        <textarea name="comments" id="comments"></textarea>
+        <input type="submit" value="Go!" id="go">
+
+    </form>
+
+  </body>
+</html>
